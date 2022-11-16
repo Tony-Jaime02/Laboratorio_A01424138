@@ -17,5 +17,7 @@ printf("%i",op1);
 int op2 = resta(num1,num2);
 printf("%i",op2);
 
+#Cosas de Supervisor
+
 return 0;
 }

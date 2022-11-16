@@ -10,9 +10,12 @@ return a-b;
 }
 
 int main(){
-int length;
-scanf("%i", &length);
-int office = pow(2,length);
-printf("%i",office);
+int num1 = 12;
+int num2 = 3;
+int op1 = suma(num1,num2);
+printf("%i",op1);
+int op2 = resta(num1,num2);
+printf("%i",op2);
+
 return 0;
 }
